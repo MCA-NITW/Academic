@@ -1,0 +1,40 @@
+>source("D:/R codes Academic/SGMC21107_Lab-5/R-Lab-5 Task1.R")
+Enter N Value (Number of Rows in First Matrix) : 2
+Enter M Value (Number of Column in First Matrix) : 3
+[1] "Enter n*m Elements :"
+1: 23
+2: 12
+3: 32
+4: 13
+5: 13
+6: 13
+7: 
+Read 6 items
+Enter P Value (Number of Rows in Second Matrix) : 3
+Enter Q Value (Number of Column in Second Matrix) : 2
+[1] "Enter p*q Elements : "
+1: 13
+2: 35
+3: 54
+4: 66
+5: 54
+6: 21
+7: 
+Read 6 items
+Enter Scaler number by which you wanna divide 1st and 2nd Matrix : 10
+[1] "Addition of 2 Matrices is not Possible as n not equal to p"
+[1] "Subtraction of 2 Matrices is not Possible as n not equal to p"
+[1] "Matrix Multiplication of 2 Matrices is : "
+     [,1] [,2]
+[1,] 2675 2269
+[2,] 1573 1586
+[1] "Matrix 1 after division from Given Scaler"
+     [,1] [,2] [,3]
+[1,]  2.3  1.2  3.2
+[2,]  1.3  1.3  1.3
+[1] "Matrix 2 after division from Given Scaler"
+     [,1] [,2]
+[1,]  1.3  3.5
+[2,]  5.4  6.6
+[3,]  5.4  2.1
+> 

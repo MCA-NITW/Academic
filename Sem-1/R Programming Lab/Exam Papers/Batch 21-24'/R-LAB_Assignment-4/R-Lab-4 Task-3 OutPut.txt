@@ -1,0 +1,5 @@
+ source("D:/R codes Academic/sgmc21107_Lab-4/R-Lab-4 Task-3.R")
+[1] "r" " " "p" "o" "g" "a" "m" "i" "n"
+[1] "a" "b"
+[1] 1 2 3 4 5 6
+> 

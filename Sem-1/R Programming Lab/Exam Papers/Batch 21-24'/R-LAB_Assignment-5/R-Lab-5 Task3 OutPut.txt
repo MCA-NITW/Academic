@@ -1,0 +1,3 @@
+source("D:/R codes Academic/SGMC21107_Lab-5/R-Lab-5 Task3.R")
+Enter a Number : 100
+[1] 338350
