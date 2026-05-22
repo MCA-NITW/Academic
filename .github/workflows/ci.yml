@@ -1,0 +1,22 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  docs:
+    name: Documentation Checks
+    uses: mca-nitw/.github/.github/workflows/markdown-check.yml@main
+    with:
+      glob: "**/*.md"
+      check-links: true
+
+  security:
+    name: Security Scan
+    uses: mca-nitw/.github/.github/workflows/security-scan.yml@main
+    permissions:
+      contents: read
+      security-events: write

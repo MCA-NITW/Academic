@@ -1,0 +1,26 @@
+# Markdownlint config — relaxed for academic notes which contain
+# heavy formula/code/list nesting and may not need strict prose linting.
+
+default: true
+
+# Allow long lines (notes often quote long URLs / formulas)
+MD013: false
+
+# Allow inline HTML (used for tables, embedded SVG/images)
+MD033: false
+
+# Don't require unique top-level headings (per-section notes can repeat)
+MD025: false
+
+# Allow duplicate heading text (common for "Examples" / "Summary" sections)
+MD024:
+  siblings_only: true
+
+# Don't require trailing newline (auto-fixed elsewhere)
+MD047: false
+
+# Trailing punctuation in headings is fine for academic notes
+MD026: false
+
+# Allow no language tag on fenced code (math/pseudocode often)
+MD040: false
