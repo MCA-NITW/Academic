@@ -4,7 +4,7 @@ Centralized repository of academic coursework, exam papers, study materials, and
 
 ![Academic](https://img.shields.io/badge/NIT_Warangal-MCA-blue?style=flat)
 ![Semesters](https://img.shields.io/badge/Semesters-4-green?style=flat)
-![License](https://img.shields.io/badge/License-MIT-yellow?style=flat)
+![License](https://img.shields.io/badge/License-GPL--3.0-blue?style=flat)
 
 ## Overview
 
@@ -95,4 +95,4 @@ This repository is maintained by [MCA-NITW](https://github.com/MCA-NITW), the Gi
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
